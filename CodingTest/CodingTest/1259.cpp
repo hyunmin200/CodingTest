@@ -5,7 +5,7 @@
 using namespace std;
 
 
-int main()
+int main1()
 {
 	string input;
 	while (true)
@@ -27,4 +27,6 @@ int main()
 			cout << "no" << endl;
 		}
 	}
+
+	return 0;
 }

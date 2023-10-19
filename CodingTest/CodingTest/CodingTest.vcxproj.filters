@@ -21,15 +21,24 @@
     <ClCompile Include="CodingTest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1259.txt">
+    <ClCompile Include="1259.cpp">
       <Filter>소스 파일\Matters</Filter>
     </ClCompile>
-    <ClCompile Include="1157.txt">
+    <ClCompile Include="1157.cpp">
+      <Filter>소스 파일\Matters</Filter>
+    </ClCompile>
+    <ClCompile Include="2675.cpp">
+      <Filter>소스 파일\Matters</Filter>
+    </ClCompile>
+    <ClCompile Include="11654.cpp">
+      <Filter>소스 파일\Matters</Filter>
+    </ClCompile>
+    <ClCompile Include="27866.cpp">
       <Filter>소스 파일\Matters</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="1978.txt">
+    <Text Include="1978.cpp">
       <Filter>소스 파일\Matters</Filter>
     </Text>
   </ItemGroup>

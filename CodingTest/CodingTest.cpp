@@ -4,29 +4,16 @@ using namespace std;
 
 int main()
 {
-	int T;
+	string a;
 
-	cin >> T;
+	getline(cin, a);
 
-	for(int i = 0; i < T; i++)
-	{
-		int first = 1;
-		int h, w, n;
-		cin >> h >> w >> n;
-
-		if(n % h)
-		{
-			int result = (n % h) * 100 + (n / h) + first;
-
-			cout << result << endl;
-		}
-		else
-		{
-			int result = h * 100 + (n / h);
-
-			cout << result << endl;
-		}
-	}
+	if (a == "1 2 3 4 5 6 7 8")
+		cout << "ascending";
+	else if (a == "8 7 6 5 4 3 2 1")
+		cout << "descending";
+	else
+		cout << "mixed";
 
 	return 0;
 }
